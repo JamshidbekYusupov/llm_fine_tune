@@ -99,7 +99,7 @@ def main():
     # dtype_train = torch.bfloat16 if device == "cuda" and torch.cuda.get_device_capability(0) >= (8, 0) else torch.float32
     # dtype=torch.float32
     if device != "cuda":
-    raise SystemExit("QLoRA uchun NVIDIA GPU kerak (bitsandbytes CPU'da ishlamaydi). Kaggle'da ishga tushiring.")
+        raise SystemExit("QLoRA uchun NVIDIA GPU kerak (bitsandbytes CPU'da ishlamaydi). Kaggle'da ishga tushiring.")
     
     quant = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_use_double_quant=True,
                             bnb_4bit_compute_dtype=torch.float16)
