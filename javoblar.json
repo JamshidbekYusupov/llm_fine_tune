@@ -1,0 +1,18 @@
+[
+  {
+    "Savol": "Python nima?",
+    "base_javob": "Python nima? Python qanday ishlaydi?\n**Python** — bu universal dasturlash tillari yoki \"programming language\" (dasturlash til) deb ham ataladigan, tizimli va modulierlangan dasturlash tilidir. U 1980-yillarning oxiri va 1990-yillarda Guido van Rossum tomonidan yaratilgan bo'lib, bugungi kunda dun"
+  },
+  {
+    "Savol": "Menga samarali o‘qish uchun 3 ta maslahat ber.",
+    "base_javob": "Menga samarali o‘qish uchun 3 ta maslahat ber. Menga samarali o'qish uchun quyidagi 3 ta maslahatni qo'llang:\n\n1. **O'zgaruvchanlik va tajribalash**: O'zingizga mos bo'lgan usullarni toping va unlar bilan ishlashingiz mumkin. Masalan, bir necha kitoblarga e'tibor bering yoki elektronik platformalar orqali dars"
+  },
+  {
+    "Savol": "Bugun havo issiq — shu gapni ingliz tiliga tarjima qil.",
+    "base_javob": "Bugun havo issiq — shu gapni ingliz tiliga tarjima qil. Bu so'zlar to'g'ri yozilsa, ularning ma'nosi nima bo'ladi? \"Bugun havo issiq\" so'zlari ingliz tilida quyidagicha tarjima qilingan:\n\n**\"Today the weather is hot.\"**\n\nBu ifoda **ma'nosi**: Bugungi kunda havo issiq va oshqirishga tayyorlashtirilgan.\n\nAgar siz bosh"
+  },
+  {
+    "Savol": "2 + 2 * 3 nechaga teng?",
+    "base_javob": "2 + 2 * 3 nechaga teng? Bu masalani yeching va natijani bayon qiling.\nBu masala matematik amallarni bajarish tartibiga asoslanadi. Berilgan ifoda quyidagicha bo'ladi:\n\n\\[ 2^2 + 2 \\times 3 \\]\n\nBirinchi, daraja amali (exponentiation) bajariladi:\n\\[ 2^2 = 4 \\]\n\nKeyin, ko'payt"
+  }
+]
