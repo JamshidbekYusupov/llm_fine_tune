@@ -16,8 +16,8 @@ import time
 from pathlib import Path
 
 import torch
-from peft import LoraConfig, get_peft_model
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 SFT = Path(__file__).parent.parent          # sft/ papkasi: train.jsonl va val.jsonl shu yerda
 ROOT = SFT.parent
@@ -109,6 +109,7 @@ def main():
 
     # Tekshiruv: qatlamlar haqiqatan 4-bit bo'lganmi? Bo'lmasa, bu QLoRA emas, oddiy LoRA bo'lib qoladi.
     import bitsandbytes as bnb
+
     n_4bit = sum(isinstance(m, bnb.nn.Linear4bit) for m in base.modules())
     if n_4bit == 0:
         raise SystemExit("XATO: model 4-bit ko'rinishda yuklanmadi, QLoRA ishlamaydi.")
